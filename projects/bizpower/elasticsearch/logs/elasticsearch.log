@@ -1,0 +1,331 @@
+[2017-03-28T09:39:25,839][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T09:39:26,117][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [30gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T09:39:26,117][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T09:39:26,120][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T09:39:26,138][INFO ][o.e.n.Node               ] version[5.2.2], pid[29179], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T09:39:32,634][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T09:39:32,653][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T09:39:32,653][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T09:39:32,654][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T09:39:32,654][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T09:39:32,655][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T09:39:32,655][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T09:39:32,656][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T09:39:32,657][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T09:39:32,657][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T09:39:32,660][INFO ][o.e.p.PluginsService     ] [-j4xY4c] no plugins loaded
+[2017-03-28T09:39:39,388][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T09:39:39,395][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T09:39:40,099][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-03-28T09:39:40,325][WARN ][o.e.b.BootstrapChecks    ] [-j4xY4c] max file descriptors [65535] for elasticsearch process is too low, increase to at least [65536]
+[2017-03-28T09:39:40,325][WARN ][o.e.b.BootstrapChecks    ] [-j4xY4c] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-03-28T09:39:41,430][WARN ][o.e.m.j.JvmGcMonitorService] [-j4xY4c] [gc][2] overhead, spent [588ms] collecting in the last [1s]
+[2017-03-28T09:39:43,980][INFO ][o.e.c.s.ClusterService   ] [-j4xY4c] new_master {-j4xY4c}{-j4xY4cqRTKDQd1ZLPVE8g}{diLoyUnvTSWI3LIlTFqR5A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-28T09:39:45,746][INFO ][o.e.g.GatewayService     ] [-j4xY4c] recovered [0] indices into cluster_state
+[2017-03-28T09:39:45,791][INFO ][o.e.h.HttpServer         ] [-j4xY4c] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-03-28T09:39:45,791][INFO ][o.e.n.Node               ] [-j4xY4c] started
+[2017-03-28T09:40:15,627][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T09:40:15,684][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T09:40:15,684][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T09:40:15,716][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:14:41,911][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:14:42,175][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [30gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:14:42,175][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:14:42,178][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:14:42,188][INFO ][o.e.n.Node               ] version[5.2.2], pid[30888], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:14:44,887][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [ik]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:295) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:131) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:297) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) [elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) [elasticsearch-5.2.2.jar:5.2.2]
+Caused by: java.nio.file.NoSuchFileException: /opt/elasticsearch-5.2.2/plugins/ik/plugin-descriptor.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_60]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_60]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_60]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_60]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:86) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:292) ~[elasticsearch-5.2.2.jar:5.2.2]
+	... 13 more
+[2017-03-28T10:14:44,929][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [ik]. Was the plugin built before 2.0?
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:125) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:112) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:89) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:82) ~[elasticsearch-5.2.2.jar:5.2.2]
+Caused by: java.lang.IllegalStateException: Could not load plugin descriptor for existing plugin [ik]. Was the plugin built before 2.0?
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:295) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:131) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:297) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.2.jar:5.2.2]
+	... 6 more
+Caused by: java.nio.file.NoSuchFileException: /opt/elasticsearch-5.2.2/plugins/ik/plugin-descriptor.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_60]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_60]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_60]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_60]
+	at org.elasticsearch.plugins.PluginInfo.readFromProperties(PluginInfo.java:86) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.plugins.PluginsService.getPluginBundles(PluginsService.java:292) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.plugins.PluginsService.<init>(PluginsService.java:131) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:297) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.node.Node.<init>(Node.java:232) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap$6.<init>(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:241) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:333) ~[elasticsearch-5.2.2.jar:5.2.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:121) ~[elasticsearch-5.2.2.jar:5.2.2]
+	... 6 more
+[2017-03-28T10:18:03,759][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:18:03,991][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [30gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:18:03,992][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:18:03,995][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:18:04,001][INFO ][o.e.n.Node               ] version[5.2.2], pid[31022], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:18:07,379][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:18:07,379][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:18:07,380][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:18:07,382][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:18:07,382][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:18:12,544][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:18:12,545][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:18:13,145][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:18:13,161][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:18:13,167][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [65535] for elasticsearch process is too low, increase to at least [65536]
+max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-03-28T10:18:13,174][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:18:13,263][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:18:13,264][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:18:13,303][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:18:32,517][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:18:32,724][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [29.9gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:18:32,724][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:18:32,727][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:18:32,732][INFO ][o.e.n.Node               ] version[5.2.2], pid[31101], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:18:34,873][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:18:34,873][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:18:34,873][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:18:34,873][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:18:34,874][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:18:34,875][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:18:34,875][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:18:39,502][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:18:39,503][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:18:40,055][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:18:40,065][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:18:40,069][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [65535] for elasticsearch process is too low, increase to at least [65536]
+max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-03-28T10:18:40,077][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:18:40,193][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:18:40,193][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:18:40,215][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:20:58,993][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:20:59,185][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [29.9gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:20:59,186][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:20:59,191][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:20:59,197][INFO ][o.e.n.Node               ] version[5.2.2], pid[31305], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:21:01,410][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:21:01,410][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:21:01,410][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:21:01,410][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:21:01,411][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:21:01,412][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:21:01,412][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:21:04,872][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:21:04,873][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:21:05,262][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:21:05,272][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:21:05,275][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-03-28T10:21:05,328][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:21:05,443][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:21:05,444][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:21:05,478][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:22:36,247][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:22:36,430][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [30gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:22:36,431][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:22:36,434][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:22:36,439][INFO ][o.e.n.Node               ] version[5.2.2], pid[31398], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:22:38,464][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:22:38,464][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:22:38,464][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:22:38,465][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:22:38,465][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:22:38,465][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:22:38,465][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:22:38,465][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:22:38,466][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:22:38,466][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:22:38,469][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:22:38,469][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:22:41,302][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:22:41,302][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:22:41,574][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:22:41,581][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:22:41,586][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-03-28T10:22:41,593][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:22:41,644][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:22:41,645][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:22:41,664][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:27:13,325][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:27:13,461][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [29.9gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:27:13,461][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:27:13,463][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:27:13,467][INFO ][o.e.n.Node               ] version[5.2.2], pid[31520], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:27:15,421][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:27:15,422][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:27:15,422][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:27:15,422][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:27:15,422][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:27:15,423][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:27:15,423][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:27:15,423][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:27:15,423][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:27:15,424][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:27:15,425][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:27:15,425][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:27:18,591][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:27:18,591][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:27:18,912][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:27:18,925][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:27:18,934][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-03-28T10:27:18,941][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:27:18,989][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:27:18,990][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:27:19,008][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:27:39,166][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:27:39,297][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [30gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:27:39,297][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:27:39,299][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:27:39,303][INFO ][o.e.n.Node               ] version[5.2.2], pid[31614], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:27:41,037][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:27:41,037][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:27:41,038][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:27:41,039][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:27:41,039][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:27:44,273][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:27:44,273][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:27:44,666][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:27:44,688][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:27:44,692][ERROR][o.e.b.Bootstrap          ] [-j4xY4c] node validation exception
+bootstrap checks failed
+max file descriptors [65535] for elasticsearch process is too low, increase to at least [65536]
+[2017-03-28T10:27:44,705][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:27:44,757][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:27:44,757][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:27:44,775][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:27:52,257][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:27:52,394][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [29.9gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:27:52,394][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-03-28T10:27:52,396][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:27:52,400][INFO ][o.e.n.Node               ] version[5.2.2], pid[31702], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:27:54,257][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:27:54,258][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:27:54,258][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:27:54,258][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:27:54,259][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:27:57,307][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:27:57,307][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:27:57,671][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:27:57,686][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:28:00,880][INFO ][o.e.c.s.ClusterService   ] [-j4xY4c] new_master {-j4xY4c}{-j4xY4cqRTKDQd1ZLPVE8g}{klST8e_eQyKVutzKcxzpkw}{192.168.1.232}{192.168.1.232:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-28T10:28:00,956][INFO ][o.e.h.HttpServer         ] [-j4xY4c] publish_address {192.168.1.232:9200}, bound_addresses {192.168.1.232:9200}
+[2017-03-28T10:28:00,956][INFO ][o.e.n.Node               ] [-j4xY4c] started
+[2017-03-28T10:28:00,988][INFO ][o.e.g.GatewayService     ] [-j4xY4c] recovered [0] indices into cluster_state
+[2017-03-28T10:32:55,671][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T10:32:55,709][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T10:32:55,710][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T10:32:55,730][INFO ][o.e.n.Node               ] [-j4xY4c] closed
+[2017-03-28T10:33:33,959][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-03-28T10:33:34,145][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] using [1] data paths, mounts [[/ (rootfs)]], net usable_space [29.9gb], net total_space [35.5gb], spins? [unknown], types [rootfs]
+[2017-03-28T10:33:34,145][INFO ][o.e.e.NodeEnvironment    ] [-j4xY4c] heap size [494.9mb], compressed ordinary object pointers [true]
+[2017-03-28T10:33:34,149][INFO ][o.e.n.Node               ] node name [-j4xY4c] derived from node ID [-j4xY4cqRTKDQd1ZLPVE8g]; set [node.name] to override
+[2017-03-28T10:33:34,154][INFO ][o.e.n.Node               ] version[5.2.2], pid[31879], build[f9d9b74/2017-02-24T17:26:45.835Z], OS[Linux/3.10.0-327.el7.x86_64/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_60/25.60-b23]
+[2017-03-28T10:33:36,271][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [aggs-matrix-stats]
+[2017-03-28T10:33:36,271][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [ingest-common]
+[2017-03-28T10:33:36,271][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-expression]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-groovy]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-mustache]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [lang-painless]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [percolator]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [reindex]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty3]
+[2017-03-28T10:33:36,272][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded module [transport-netty4]
+[2017-03-28T10:33:36,273][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-ik]
+[2017-03-28T10:33:36,273][INFO ][o.e.p.PluginsService     ] [-j4xY4c] loaded plugin [analysis-pinyin]
+[2017-03-28T10:33:40,171][INFO ][o.e.n.Node               ] initialized
+[2017-03-28T10:33:40,171][INFO ][o.e.n.Node               ] [-j4xY4c] starting ...
+[2017-03-28T10:33:40,440][INFO ][o.e.t.TransportService   ] [-j4xY4c] publish_address {192.168.1.232:9300}, bound_addresses {192.168.1.232:9300}
+[2017-03-28T10:33:40,452][INFO ][o.e.b.BootstrapChecks    ] [-j4xY4c] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-03-28T10:33:43,581][INFO ][o.e.c.s.ClusterService   ] [-j4xY4c] new_master {-j4xY4c}{-j4xY4cqRTKDQd1ZLPVE8g}{ih4BtX96Rze0yyjqNSp_IQ}{192.168.1.232}{192.168.1.232:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-03-28T10:33:43,640][INFO ][o.e.h.HttpServer         ] [-j4xY4c] publish_address {192.168.1.232:9200}, bound_addresses {192.168.1.232:9200}
+[2017-03-28T10:33:43,641][INFO ][o.e.n.Node               ] [-j4xY4c] started
+[2017-03-28T10:33:43,676][INFO ][o.e.g.GatewayService     ] [-j4xY4c] recovered [0] indices into cluster_state
+[2017-03-28T11:01:15,151][INFO ][o.e.n.Node               ] [-j4xY4c] stopping ...
+[2017-03-28T11:01:15,211][INFO ][o.e.n.Node               ] [-j4xY4c] stopped
+[2017-03-28T11:01:15,212][INFO ][o.e.n.Node               ] [-j4xY4c] closing ...
+[2017-03-28T11:01:15,246][INFO ][o.e.n.Node               ] [-j4xY4c] closed
