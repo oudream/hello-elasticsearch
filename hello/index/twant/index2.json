@@ -1,0 +1,545 @@
+{
+  "state": "open",
+  "settings": {
+    "index": {
+      "number_of_shards": "5",
+      "provided_name": "bizpower_goods",
+      "max_result_window": "1000000",
+      "creation_date": "1578987657081",
+      "analysis": {
+        "filter": {
+          "first_letter_pinyin": {
+            "keep_joined_full_pinyin": "false",
+            "lowercase": "true",
+            "keep_original": "false",
+            "keep_first_letter": "true",
+            "keep_separate_first_letter": "true",
+            "type": "pinyin",
+            "limit_first_letter_length": "16",
+            "keep_full_pinyin": "false"
+          },
+          "full_pinyin": {
+            "keep_joined_full_pinyin": "true",
+            "lowercase": "true",
+            "none_chinese_pinyin_tokenize": "false",
+            "keep_none_chinese_together": "true",
+            "type": "pinyin",
+            "keep_none_chinese": "true",
+            "keep_full_pinyin": "false"
+          }
+        },
+        "analyzer": {
+          "full_pinyin_analyzer": {
+            "filter": [
+              "full_pinyin"
+            ,
+              "unique"
+            ],
+            "tokenizer": "ik_smart"
+          },
+          "first_letter_pinyin_analyzer": {
+            "filter": [
+              "first_letter_pinyin"
+            ],
+            "tokenizer": "ik_smart"
+          }
+        }
+      },
+      "number_of_replicas": "1",
+      "uuid": "1Mu_i7wdSX-B-oMJfFWVGA",
+      "version": {
+        "created": "5020299"
+      }
+    }
+  },
+  "mappings": {
+    "goods": {
+      "_all": {
+        "enabled": false
+      },
+      "properties": {
+        "goodsVerify": {
+          "type": "byte"
+        },
+        "appCommission": {
+          "type": "double"
+        },
+        "promotionId": {
+          "type": "integer"
+        },
+        "batchNum1End": {
+          "type": "long"
+        },
+        "goodsState": {
+          "type": "byte"
+        },
+        "batchPrice1": {
+          "type": "double"
+        },
+        "extendInt1": {
+          "type": "integer"
+        },
+        "batchPrice2": {
+          "type": "double"
+        },
+        "extendInt2": {
+          "type": "integer"
+        },
+        "extendInt3": {
+          "type": "integer"
+        },
+        "batchPrice0": {
+          "type": "double"
+        },
+        "extendInt4": {
+          "type": "integer"
+        },
+        "usableVoucher": {
+          "type": "byte"
+        },
+        "goodsName": {
+          "type": "text",
+          "fields": {
+            "first_letter": {
+              "analyzer": "first_letter_pinyin_analyzer",
+              "type": "text"
+            },
+            "goodsNameMax": {
+              "analyzer": "ik_max_word",
+              "type": "text"
+            },
+            "goodsName": {
+              "analyzer": "ik_smart",
+              "type": "text"
+            },
+            "full_pinyin": {
+              "analyzer": "full_pinyin_analyzer",
+              "type": "text"
+            }
+          }
+        },
+        "extendInt0": {
+          "type": "integer"
+        },
+        "extendInt9": {
+          "type": "integer"
+        },
+        "goodsSaleNum": {
+          "type": "integer"
+        },
+        "imageName": {
+          "index": false,
+          "type": "text"
+        },
+        "extendInt5": {
+          "type": "integer"
+        },
+        "extendInt6": {
+          "type": "integer"
+        },
+        "promotionStartTime": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendInt7": {
+          "type": "integer"
+        },
+        "extendInt8": {
+          "type": "integer"
+        },
+        "extendString9": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString7": {
+          "index": false,
+          "type": "text"
+        },
+        "ordersCount": {
+          "type": "integer"
+        },
+        "extendString8": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString5": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString6": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString3": {
+          "index": false,
+          "type": "text"
+        },
+        "brandId": {
+          "type": "long"
+        },
+        "extendString4": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString1": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString2": {
+          "index": false,
+          "type": "text"
+        },
+        "extendString0": {
+          "index": false,
+          "type": "text"
+        },
+        "webUsable": {
+          "type": "byte"
+        },
+        "promotionEndTime": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "brandEnglish": {
+          "type": "text"
+        },
+        "WechatCommission": {
+          "type": "double"
+        },
+        "goodsRate": {
+          "type": "integer"
+        },
+        "imageSrc": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "webCommission": {
+          "type": "double"
+        },
+        "batchNumPriceVoList": {
+          "properties": {
+            "price": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "num": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        },
+        "batchNum1": {
+          "type": "integer"
+        },
+        "wechatPriceMin": {
+          "type": "double"
+        },
+        "batchNum0": {
+          "type": "integer"
+        },
+        "batchNum2": {
+          "type": "integer"
+        },
+        "wechatCommission": {
+          "type": "long"
+        },
+        "joinBigSale": {
+          "type": "integer"
+        },
+        "storeId": {
+          "type": "integer"
+        },
+        "wechatPrice1": {
+          "type": "double"
+        },
+        "goodsSpecList": {
+          "type": "nested",
+          "properties": {
+            "goodsId": {
+              "type": "integer"
+            },
+            "spec": {
+              "analyzer": "ik_smart",
+              "type": "text"
+            }
+          }
+        },
+        "jingle": {
+          "analyzer": "ik_smart",
+          "type": "text"
+        },
+        "wechatPrice2": {
+          "type": "double"
+        },
+        "wechatPrice0": {
+          "type": "double"
+        },
+        "areaInfo": {
+          "index": false,
+          "type": "text"
+        },
+        "categoryIds": {
+          "type": "integer"
+        },
+        "commonId": {
+          "type": "integer"
+        },
+        "evaluateNum": {
+          "type": "integer"
+        },
+        "wechatUsable": {
+          "type": "byte"
+        },
+        "goodsModal": {
+          "type": "byte"
+        },
+        "sellerId": {
+          "type": "integer"
+        },
+        "webPriceMin": {
+          "type": "double"
+        },
+        "goodsFreight": {
+          "type": "double"
+        },
+        "isOwnShop": {
+          "type": "byte"
+        },
+        "searchBoost": {
+          "type": "integer"
+        },
+        "goodsImageList": {
+          "type": "nested",
+          "properties": {
+            "specValueName": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "isDefault": {
+              "type": "integer"
+            },
+            "imageId": {
+              "type": "integer"
+            },
+            "imageName": {
+              "index": false,
+              "type": "text"
+            },
+            "colorId": {
+              "type": "integer"
+            },
+            "commonId": {
+              "type": "integer"
+            },
+            "imageSrc": {
+              "index": false,
+              "type": "text"
+            },
+            "imageSort": {
+              "type": "integer"
+            }
+          }
+        },
+        "brandName": {
+          "type": "text"
+        },
+        "specString": {
+          "analyzer": "ik_smart",
+          "type": "text"
+        },
+        "unitName": {
+          "index": false,
+          "type": "text"
+        },
+        "isDistribution": {
+          "type": "byte"
+        },
+        "commissionTotal": {
+          "type": "double"
+        },
+        "appPrice2": {
+          "type": "double"
+        },
+        "appPrice1": {
+          "type": "double"
+        },
+        "appPrice0": {
+          "type": "double"
+        },
+        "batchNum0End": {
+          "type": "long"
+        },
+        "webPrice1": {
+          "type": "double"
+        },
+        "webPrice2": {
+          "type": "double"
+        },
+        "freightArea": {
+          "type": "integer"
+        },
+        "webPrice0": {
+          "type": "double"
+        },
+        "appUsable": {
+          "type": "byte"
+        },
+        "goodsFavorite": {
+          "type": "integer"
+        },
+        "commissionRate": {
+          "type": "integer"
+        },
+        "categoryName": {
+          "type": "text"
+        },
+        "isGift": {
+          "type": "byte"
+        },
+        "storeName": {
+          "analyzer": "ik_smart",
+          "type": "text"
+        },
+        "attr": {
+          "type": "long"
+        },
+        "labelIdList": {
+          "type": "integer"
+        },
+        "promotionState": {
+          "type": "byte"
+        },
+        "promotionType": {
+          "type": "byte"
+        },
+        "freightTemplateId": {
+          "type": "integer"
+        },
+        "appPriceMin": {
+          "type": "double"
+        },
+        "extendTime2": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime1": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime0": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime6": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime5": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime4": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime3": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime9": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime8": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendTime7": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "extendPrice7": {
+          "type": "double"
+        },
+        "goodsStatus": {
+          "type": "byte"
+        },
+        "extendPrice8": {
+          "type": "double"
+        },
+        "extendPrice9": {
+          "type": "double"
+        },
+        "extendPrice3": {
+          "type": "double"
+        },
+        "extendPrice4": {
+          "type": "double"
+        },
+        "extendPrice5": {
+          "type": "double"
+        },
+        "extendPrice6": {
+          "type": "double"
+        },
+        "extendPrice0": {
+          "type": "double"
+        },
+        "categoryId": {
+          "type": "integer"
+        },
+        "extendPrice1": {
+          "type": "double"
+        },
+        "extendPrice2": {
+          "type": "double"
+        }
+      }
+    }
+  },
+  "aliases": [ ],
+  "primary_terms": {
+    "0": 7,
+    "1": 7,
+    "2": 7,
+    "3": 7,
+    "4": 7
+  },
+  "in_sync_allocations": {
+    "0": [
+      "ttWmUpn7TryKQnHx8VOcnQ"
+    ],
+    "1": [
+      "VMi3Pxx5Sqii-2jkTHKhMA"
+    ],
+    "2": [
+      "YcbHvgUWRmWTuVjZyZm-Bg"
+    ],
+    "3": [
+      "Fo_vaFqSQAeebdnebXLshw"
+    ],
+    "4": [
+      "hhOlV-GZTr-BVhB8oOrTwA"
+    ]
+  }
+}

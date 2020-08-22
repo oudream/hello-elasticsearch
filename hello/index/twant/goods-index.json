@@ -1,0 +1,297 @@
+{
+  "state": "open",
+  "settings": {
+    "index": {
+      "creation_date": "1559823393584",
+      "number_of_shards": "5",
+      "number_of_replicas": "1",
+      "uuid": "tnB11dPFTqKORQdly7x3Wg",
+      "version": {
+        "created": "5020299"
+      },
+      "provided_name": "index_want_post"
+    }
+  },
+  "mappings": {
+    "want_post": {
+      "properties": {
+        "postCategory": {
+          "type": "keyword"
+        },
+        "images": {
+          "type": "nested",
+          "properties": {
+            "imageUrl": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        },
+        "comments": {
+          "type": "nested",
+          "properties": {
+            "commentChannel": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "deep": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "images": {
+              "properties": {
+                "imageUrl": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "ignore_above": 256,
+                      "type": "keyword"
+                    }
+                  }
+                }
+              }
+            },
+            "relateStoreId": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentReply": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "replyCommentId": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "relatePostId": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentLike": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "content": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentState": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "createBy": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "relateCommonId": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "createTime": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentUnlike": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentType": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentId": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentFavor": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            },
+            "commentShare": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "ignore_above": 256,
+                  "type": "keyword"
+                }
+              }
+            }
+          }
+        },
+        "postFavor": {
+          "type": "integer"
+        },
+        "postUnlike": {
+          "type": "integer"
+        },
+        "postType": {
+          "type": "byte"
+        },
+        "approveReason": {
+          "type": "text"
+        },
+        "isDelete": {
+          "type": "byte"
+        },
+        "expiresDate": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "postId": {
+          "type": "long"
+        },
+        "postShare": {
+          "type": "integer"
+        },
+        "isPublish": {
+          "type": "byte"
+        },
+        "postLike": {
+          "type": "integer"
+        },
+        "title": {
+          "type": "text"
+        },
+        "content": {
+          "type": "text"
+        },
+        "postReply": {
+          "type": "integer"
+        },
+        "budgetPrice": {
+          "scaling_factor": 10,
+          "type": "scaled_float"
+        },
+        "createBy": {
+          "type": "text"
+        },
+        "postTag": {
+          "type": "text"
+        },
+        "createTime": {
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis",
+          "type": "date"
+        },
+        "coverImage": {
+          "type": "text"
+        },
+        "postView": {
+          "type": "integer"
+        },
+        "keyword": {
+          "type": "text"
+        }
+      }
+    }
+  },
+  "aliases": [ ],
+  "primary_terms": {
+    "0": 11,
+    "1": 11,
+    "2": 11,
+    "3": 11,
+    "4": 11
+  },
+  "in_sync_allocations": {
+    "0": [
+      "IqDh0FzLThGy0wICga3CUw"
+    ],
+    "1": [
+      "RaA5QhjpQrit7xOf_yQ-NA"
+    ],
+    "2": [
+      "No-PpPLoQtehqvFx_6vlJw"
+    ],
+    "3": [
+      "Qm1-eXbnTRqxChTvYKgoYw"
+    ],
+    "4": [
+      "xa6xXPcrSvCvBSbnhBNSYQ"
+    ]
+  }
+}

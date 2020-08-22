@@ -1,0 +1,55 @@
+{
+  "bizpower_goods" : {
+    "settings" : {
+      "index" : {
+        "number_of_shards" : "5",
+        "provided_name" : "bizpower_goods",
+        "max_result_window" : "1000000",
+        "creation_date" : "1578987657081",
+        "analysis" : {
+          "filter" : {
+            "first_letter_pinyin" : {
+              "keep_joined_full_pinyin" : "false",
+              "lowercase" : "true",
+              "keep_original" : "false",
+              "keep_first_letter" : "true",
+              "keep_separate_first_letter" : "true",
+              "type" : "pinyin",
+              "limit_first_letter_length" : "16",
+              "keep_full_pinyin" : "false"
+            },
+            "full_pinyin" : {
+              "keep_joined_full_pinyin" : "true",
+              "lowercase" : "true",
+              "none_chinese_pinyin_tokenize" : "false",
+              "keep_none_chinese_together" : "true",
+              "type" : "pinyin",
+              "keep_none_chinese" : "true",
+              "keep_full_pinyin" : "false"
+            }
+          },
+          "analyzer" : {
+            "full_pinyin_analyzer" : {
+              "filter" : [
+                "full_pinyin",
+                "unique"
+              ],
+              "tokenizer" : "ik_smart"
+            },
+            "first_letter_pinyin_analyzer" : {
+              "filter" : [
+                "first_letter_pinyin"
+              ],
+              "tokenizer" : "ik_smart"
+            }
+          }
+        },
+        "number_of_replicas" : "1",
+        "uuid" : "1Mu_i7wdSX-B-oMJfFWVGA",
+        "version" : {
+          "created" : "5020299"
+        }
+      }
+    }
+  }
+}

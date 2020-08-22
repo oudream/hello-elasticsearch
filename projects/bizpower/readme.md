@@ -100,3 +100,4 @@ curl -X POST http://192.168.1.128:1234/suggest/init
 curl -X POST http://192.168.1.128:1234/orders/init
 curl -X POST http://192.168.1.128:1234/coupon/activity/init
 ```
+
