@@ -1,0 +1,195 @@
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+        "userId": {
+          "type": "long"
+        },
+        "account": {
+          "type": "text"
+        },
+        "userType": {
+          "type": "text"
+        },
+        "email": {
+          "type": "text"
+        },
+        "mobile": {
+          "type": "text"
+        },
+        "lastLogin": {
+          "type": "date"
+        },
+        "regDate": {
+          "type": "date"
+        },
+        "name": {
+          "type": "text"
+        },
+        "gender": {
+          "type": "integer"
+        },
+        "birthday": {
+          "type": "date"
+        },
+        "address": {
+          "type": "text"
+        },
+        "degree": {
+          "type": "long"
+        },
+        "occupational": {
+          "type": "long"
+        },
+        "income": {
+          "type": "long"
+        },
+        "likesInfo": {
+          "type": "text"
+        },
+        "fromWhere": {
+          "type": "long"
+        },
+        "corpName": {
+          "type": "text"
+        },
+        "additionalFeaturesType": {
+          "type": "text"
+        },
+        "tel": {
+          "type": "text"
+        },
+        "fax": {
+          "type": "text"
+        },
+        "validDate": {
+          "type": "date"
+        },
+        "vIP": {
+          "type": "long"
+        },
+        "uID": {
+          "type": "long"
+        },
+        "userNum": {
+          "type": "long"
+        },
+        "propertyNum": {
+          "type": "long"
+        },
+        "isStatus": {
+          "type": "long"
+        },
+        "aID": {
+          "type": "long"
+        },
+        "licence": {
+          "type": "text"
+        },
+        "other": {
+          "type": "long"
+        },
+        "phoneVerify": {
+          "type": "integer"
+        },
+        "comeFrom": {
+          "type": "text"
+        },
+        "abbreviation": {
+          "type": "text"
+        },
+        "topNum": {
+          "type": "long"
+        },
+        "wX": {
+          "type": "text"
+        },
+        "ip": {
+          "type": "text"
+        },
+        "fromurl": {
+          "type": "text"
+        },
+        "whatsAppID": {
+          "type": "text"
+        },
+        "whatsAppArea": {
+          "type": "text"
+        },
+        "wX_Photo": {
+          "type": "text"
+        },
+        "user_Photo": {
+          "type": "text"
+        },
+        "extendInt1": {
+          "type": "long"
+        },
+        "extendInt2": {
+          "type": "long"
+        },
+        "extendInt3": {
+          "type": "long"
+        },
+        "extendInt4": {
+          "type": "long"
+        },
+        "extendInt5": {
+          "type": "long"
+        },
+        "extendPrice1": {
+          "type": "double"
+        },
+        "extendPrice2": {
+          "type": "double"
+        },
+        "extendPrice3": {
+          "type": "double"
+        },
+        "extendPrice4": {
+          "type": "double"
+        },
+        "extendPrice5": {
+          "type": "double"
+        },
+        "extendString1": {
+          "type": "text"
+        },
+        "extendString2": {
+          "type": "text"
+        },
+        "extendString3": {
+          "type": "text"
+        },
+        "extendString4": {
+          "type": "text",
+          "index": false
+        },
+        "extendString5": {
+          "type": "text",
+          "index": false
+        },
+        "extendTime1": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime2": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime3": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime4": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime5": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        }
+      }
+    }
+  }
+}

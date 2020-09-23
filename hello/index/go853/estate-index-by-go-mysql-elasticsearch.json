@@ -1,0 +1,382 @@
+{
+  "goeft_estate_infos": {
+    "settings": {
+      "index": {
+        "creation_date": "1600757198630",
+        "number_of_shards": "5",
+        "number_of_replicas": "1",
+        "uuid": "d5t8jOVxS5GVvhTMgoWRuQ",
+        "version": {
+          "created": "5020299"
+        },
+        "provided_name": "goeft_estate_infos"
+      }
+    },
+    "mappings": {
+      "doc": {
+        "properties": {
+          "AdditionalFeaturesType": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Age": {
+            "type": "long"
+          },
+          "Area": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "BrokeragePercent": {
+            "type": "long"
+          },
+          "BrokerageType": {
+            "type": "long"
+          },
+          "Building": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "BuildingArea": {
+            "type": "long"
+          },
+          "City": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "ContactHits": {
+            "type": "long"
+          },
+          "Cooperation": {
+            "type": "long"
+          },
+          "Cover": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Coverkey": {
+            "type": "long"
+          },
+          "Decoration": {
+            "type": "long"
+          },
+          "DecorationDescription": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Detail": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Developers": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Direction": {
+            "type": "long"
+          },
+          "EditDate": {
+            "type": "date"
+          },
+          "Email": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "ExpireDate": {
+            "type": "date"
+          },
+          "Floor": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Furniture": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "GoodPick": {
+            "type": "long"
+          },
+          "HandPick": {
+            "type": "long"
+          },
+          "Hits": {
+            "type": "long"
+          },
+          "ID": {
+            "type": "long"
+          },
+          "IntervalHall": {
+            "type": "long"
+          },
+          "IntervalRoom": {
+            "type": "long"
+          },
+          "IntervalStoreRooms": {
+            "type": "long"
+          },
+          "IntervalTerrace": {
+            "type": "long"
+          },
+          "IntervalToilet": {
+            "type": "long"
+          },
+          "IsTop": {
+            "type": "long"
+          },
+          "Landscape": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "LandscapeDescription": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Lease": {
+            "type": "long"
+          },
+          "LinkMan": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "LoftDescribe": {
+            "type": "long"
+          },
+          "MHandPick": {
+            "type": "long"
+          },
+          "Map_X": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Map_Y": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Mobile": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Other": {
+            "type": "long"
+          },
+          "ParkingSpaces": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "PropertyCorp": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "PropertyName": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "PubDate": {
+            "type": "date"
+          },
+          "Remark": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "RentReservePrice": {
+            "type": "long"
+          },
+          "RentalPrice": {
+            "type": "long"
+          },
+          "RoomType": {
+            "type": "long"
+          },
+          "SalableArea": {
+            "type": "long"
+          },
+          "SaleDate": {
+            "type": "date"
+          },
+          "SaleType": {
+            "type": "long"
+          },
+          "Selected": {
+            "type": "long"
+          },
+          "SellReservePrice": {
+            "type": "long"
+          },
+          "SellingPrice": {
+            "type": "long"
+          },
+          "Sequence": {
+            "type": "long"
+          },
+          "Source": {
+            "type": "long"
+          },
+          "Street": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "TID": {
+            "type": "long"
+          },
+          "Tel": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "UID": {
+            "type": "long"
+          },
+          "Unit": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "UnitPrice": {
+            "type": "long"
+          },
+          "isLift": {
+            "type": "long"
+          },
+          "isNew": {
+            "type": "long"
+          },
+          "isParkingSpaces": {
+            "type": "long"
+          },
+          "isStatus": {
+            "type": "long"
+          },
+          "isType": {
+            "type": "long"
+          },
+          "picAmount": {
+            "type": "long"
+          },
+          "ui_Other": {
+            "type": "long"
+          },
+          "ui_isStatus": {
+            "type": "long"
+          }
+        }
+      }
+    }
+  }
+}

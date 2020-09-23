@@ -101,3 +101,11 @@ curl -X POST http://192.168.1.128:1234/orders/init
 curl -X POST http://192.168.1.128:1234/coupon/activity/init
 ```
 
+### kibana
+```bash
+docker run --link YOUR_ELASTICSEARCH_CONTAINER_NAME_OR_ID:elasticsearch -p 5601:5601 {docker-repo}:{version}
+
+docker run docker.elastic.co/kibana/kibana:5.2.2
+
+docker run --net=host -e "ELASTICSEARCH_URL=http://192.168.5.30:9200" docker.elastic.co/kibana/kibana:5.2.2
+```

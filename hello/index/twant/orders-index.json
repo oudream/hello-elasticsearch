@@ -1,0 +1,502 @@
+{
+  "bizpower_orders": {
+    "settings": {
+      "index": {
+        "creation_date": "1553911658821",
+        "number_of_shards": "5",
+        "number_of_replicas": "1",
+        "uuid": "6Ymj7NELToGrPNTBfrgcbQ",
+        "version": {
+          "created": "5020299"
+        },
+        "provided_name": "bizpower_orders"
+      }
+    },
+    "mappings": {
+      "orders": {
+        "_all": {
+          "enabled": false
+        },
+        "properties": {
+          "autoCancelSecond": {
+            "type": "long"
+          },
+          "autoReceiveTime": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "chainId": {
+            "type": "integer"
+          },
+          "chainName": {
+            "type": "text",
+            "index": false
+          },
+          "chainOrdersType": {
+            "type": "byte"
+          },
+          "createTime": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+          },
+          "delayReceiveState": {
+            "type": "integer"
+          },
+          "deleteState": {
+            "type": "byte"
+          },
+          "evaluationAppendState": {
+            "type": "byte"
+          },
+          "evaluationState": {
+            "type": "byte"
+          },
+          "evaluationTime": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "finishTime": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "freightAmount": {
+            "type": "double"
+          },
+          "goId": {
+            "type": "integer"
+          },
+          "goState": {
+            "type": "long"
+          },
+          "goodsName": {
+            "type": "text",
+            "analyzer": "ik_smart"
+          },
+          "groupId": {
+            "type": "integer"
+          },
+          "groupNeedNum": {
+            "type": "long"
+          },
+          "groupRemainNum": {
+            "type": "long"
+          },
+          "imIsOnline": {
+            "type": "byte"
+          },
+          "isShowRefundOrdersList": {
+            "type": "long"
+          },
+          "isVirtual": {
+            "type": "long"
+          },
+          "lockState": {
+            "type": "integer"
+          },
+          "memberId": {
+            "type": "integer"
+          },
+          "memberName": {
+            "type": "text",
+            "index": false
+          },
+          "ordersAmount": {
+            "type": "double"
+          },
+          "ordersGiftVoList": {
+            "properties": {
+              "commonId": {
+                "type": "long"
+              },
+              "giftNum": {
+                "type": "long"
+              },
+              "goodsFullSpecs": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "goodsId": {
+                "type": "long"
+              },
+              "goodsName": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "imageSrc": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "ordersId": {
+                "type": "long"
+              },
+              "unitName": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              }
+            }
+          },
+          "ordersGoodsVoList": {
+            "properties": {
+              "allowVirtualRefund": {
+                "type": "byte"
+              },
+              "buyNum": {
+                "type": "integer"
+              },
+              "commonId": {
+                "type": "integer"
+              },
+              "complainId": {
+                "type": "integer"
+              },
+              "giftNum": {
+                "type": "integer"
+              },
+              "goodsContractVoList": {
+                "properties": {
+                  "content": {
+                    "type": "text",
+                    "index": false
+                  },
+                  "image": {
+                    "type": "text",
+                    "index": false
+                  },
+                  "title": {
+                    "type": "text",
+                    "index": false
+                  },
+                  "url": {
+                    "type": "text",
+                    "index": false
+                  }
+                }
+              },
+              "goodsFullSpecs": {
+                "type": "text",
+                "index": false
+              },
+              "goodsId": {
+                "type": "integer"
+              },
+              "goodsImage": {
+                "type": "text",
+                "index": false
+              },
+              "goodsName": {
+                "type": "text",
+                "index": false
+              },
+              "goodsPayAmount": {
+                "type": "double"
+              },
+              "goodsPrice": {
+                "type": "double"
+              },
+              "imageSrc": {
+                "type": "text",
+                "index": false
+              },
+              "isExistLock": {
+                "type": "long"
+              },
+              "ordersGoodsId": {
+                "type": "integer"
+              },
+              "ordersId": {
+                "type": "integer"
+              },
+              "promotionTitle": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "refundId": {
+                "type": "integer"
+              },
+              "refundSn": {
+                "type": "long"
+              },
+              "refundType": {
+                "type": "long"
+              },
+              "showMemberComplain": {
+                "type": "long"
+              },
+              "showRefund": {
+                "type": "long"
+              },
+              "showRefundInfo": {
+                "type": "byte"
+              },
+              "showViewRefund": {
+                "type": "long"
+              },
+              "showViewReturn": {
+                "type": "long"
+              },
+              "tagTitle": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "unitName": {
+                "type": "text",
+                "index": false
+              },
+              "virtualRefundApplyed": {
+                "type": "byte"
+              }
+            }
+          },
+          "ordersId": {
+            "type": "integer"
+          },
+          "ordersSn": {
+            "type": "long"
+          },
+          "ordersState": {
+            "type": "byte"
+          },
+          "ordersStateName": {
+            "type": "text",
+            "index": false
+          },
+          "ordersType": {
+            "type": "byte"
+          },
+          "ordersTypeName": {
+            "type": "text",
+            "index": false
+          },
+          "ordersTypeTag": {
+            "type": "long"
+          },
+          "payId": {
+            "type": "integer"
+          },
+          "paymentClientType": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "paymentCode": {
+            "type": "text",
+            "index": false
+          },
+          "paymentName": {
+            "type": "text",
+            "index": false
+          },
+          "paymentTime": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "paymentTypeCode": {
+            "type": "text",
+            "index": false
+          },
+          "predepositAmount": {
+            "type": "double"
+          },
+          "receiverAddress": {
+            "type": "text",
+            "index": false
+          },
+          "receiverAreaInfo": {
+            "type": "text",
+            "index": false
+          },
+          "receiverMessage": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "receiverName": {
+            "type": "text",
+            "index": false
+          },
+          "receiverPhone": {
+            "type": "text",
+            "index": false
+          },
+          "receiverPhoneEncrypt": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "refundState": {
+            "type": "byte"
+          },
+          "searchOrdersState": {
+            "type": "byte"
+          },
+          "sellerId": {
+            "type": "integer"
+          },
+          "sellerName": {
+            "type": "text",
+            "index": false
+          },
+          "shipCode": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "shipName": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "shipSn": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "shipUrl": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "showAutoCancelSecond": {
+            "type": "long"
+          },
+          "showEvaluation": {
+            "type": "byte"
+          },
+          "showEvaluationAppend": {
+            "type": "byte"
+          },
+          "showMemberApplyForSale": {
+            "type": "long"
+          },
+          "showMemberBuyAgain": {
+            "type": "byte"
+          },
+          "showMemberCancel": {
+            "type": "byte"
+          },
+          "showMemberComplain": {
+            "type": "byte"
+          },
+          "showMemberDelayReceive": {
+            "type": "byte"
+          },
+          "showMemberDelete": {
+            "type": "byte"
+          },
+          "showMemberPay": {
+            "type": "long"
+          },
+          "showMemberReceive": {
+            "type": "byte"
+          },
+          "showMemberRecoveryDelete": {
+            "type": "byte"
+          },
+          "showMemberRefundAll": {
+            "type": "byte"
+          },
+          "showMemberVirtualRefund": {
+            "type": "long"
+          },
+          "showMemberVirtualRefundWaiting": {
+            "type": "long"
+          },
+          "showRefundWaiting": {
+            "type": "byte"
+          },
+          "showShipSearch": {
+            "type": "byte"
+          },
+          "showViewRefundAll": {
+            "type": "long"
+          },
+          "storeId": {
+            "type": "integer"
+          },
+          "storeName": {
+            "type": "text",
+            "index": false
+          }
+        }
+      }
+    }
+  }
+}

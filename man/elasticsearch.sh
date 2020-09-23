@@ -47,3 +47,14 @@ POST /_snapshot/my_backup/snapshot_1/_restore?wait_for_completion=true
   "indices": "index_1",
   "rename_replacement": "restored_index_1"
 }
+
+curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' -d'
+{
+    "query" : {
+        "bool" : {
+            "filter" : { "term" : { "user_id" : 1 }}
+        }
+    },
+    "sort": { "date": { "order": "desc" }}
+}
+'

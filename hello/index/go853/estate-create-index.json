@@ -1,0 +1,318 @@
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+        "estateId": {
+          "type": "long"
+        },
+        "additionalFeaturesType": {
+          "type": "text"
+        },
+        "age": {
+          "type": "long"
+        },
+        "area": {
+          "type": "text"
+        },
+        "brokeragePercent": {
+          "type": "long"
+        },
+        "brokerageType": {
+          "type": "long"
+        },
+        "building": {
+          "type": "text"
+        },
+        "buildingArea": {
+          "type": "double"
+        },
+        "city": {
+          "type": "text"
+        },
+        "contactHits": {
+          "type": "long"
+        },
+        "cooperation": {
+          "type": "long"
+        },
+        "cover": {
+          "type": "text"
+        },
+        "coverkey": {
+          "type": "long"
+        },
+        "decoration": {
+          "type": "long"
+        },
+        "decorationDescription": {
+          "type": "text"
+        },
+        "detail": {
+          "type": "text"
+        },
+        "developers": {
+          "type": "text"
+        },
+        "direction": {
+          "type": "long"
+        },
+        "editDate": {
+          "type": "date"
+        },
+        "email": {
+          "type": "text"
+        },
+        "expireDate": {
+          "type": "date"
+        },
+        "floor": {
+          "type": "text"
+        },
+        "furniture": {
+          "type": "text"
+        },
+        "goodPick": {
+          "type": "long"
+        },
+        "handPick": {
+          "type": "long"
+        },
+        "hits": {
+          "type": "long"
+        },
+        "intervalHall": {
+          "type": "long"
+        },
+        "intervalRoom": {
+          "type": "long"
+        },
+        "intervalStoreRooms": {
+          "type": "long"
+        },
+        "intervalTerrace": {
+          "type": "long"
+        },
+        "intervalToilet": {
+          "type": "long"
+        },
+        "isTop": {
+          "type": "long"
+        },
+        "landscape": {
+          "type": "text"
+        },
+        "landscapeDescription": {
+          "type": "text"
+        },
+        "lease": {
+          "type": "long"
+        },
+        "linkMan": {
+          "type": "text"
+        },
+        "loftDescribe": {
+          "type": "long"
+        },
+        "mHandPick": {
+          "type": "long"
+        },
+        "map_X": {
+          "type": "text"
+        },
+        "map_Y": {
+          "type": "text"
+        },
+        "mobile": {
+          "type": "text"
+        },
+        "other": {
+          "type": "long"
+        },
+        "parkingSpaces": {
+          "type": "text"
+        },
+        "propertyCorp": {
+          "type": "text"
+        },
+        "propertyName": {
+          "type": "text"
+        },
+        "pubDate": {
+          "type": "date"
+        },
+        "remark": {
+          "type": "text"
+        },
+        "rentReservePrice": {
+          "type": "double"
+        },
+        "rentalPrice": {
+          "type": "double"
+        },
+        "roomType": {
+          "type": "long"
+        },
+        "salableArea": {
+          "type": "double"
+        },
+        "saleDate": {
+          "type": "date"
+        },
+        "saleType": {
+          "type": "long"
+        },
+        "selected": {
+          "type": "long"
+        },
+        "sellReservePrice": {
+          "type": "double"
+        },
+        "sellingPrice": {
+          "type": "double"
+        },
+        "sequence": {
+          "type": "long"
+        },
+        "source": {
+          "type": "long"
+        },
+        "street": {
+          "type": "text"
+        },
+        "tID": {
+          "type": "long"
+        },
+        "tel": {
+          "type": "text"
+        },
+        "uID": {
+          "type": "long"
+        },
+        "unit": {
+          "type": "text"
+        },
+        "unitPrice": {
+          "type": "double"
+        },
+        "isLift": {
+          "type": "long"
+        },
+        "isNew": {
+          "type": "long"
+        },
+        "isParkingSpaces": {
+          "type": "long"
+        },
+        "isStatus": {
+          "type": "long"
+        },
+        "isType": {
+          "type": "long"
+        },
+        "picAmount": {
+          "type": "long"
+        },
+        "ui_Other": {
+          "type": "long"
+        },
+        "ui_isStatus": {
+          "type": "long"
+        },
+        "photoList": {
+          "type": "nested",
+          "properties": {
+            "rowId": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "text",
+              "index": false
+            },
+            "rollShow": {
+              "type": "integer"
+            },
+            "sortimg": {
+              "type": "integer"
+            },
+            "monthPic": {
+              "type": "integer"
+            },
+            "isDefault": {
+              "type": "integer"
+            },
+            "remark": {
+              "type": "text"
+            }
+          }
+        },
+        "extendInt1": {
+          "type": "long"
+        },
+        "extendInt2": {
+          "type": "long"
+        },
+        "extendInt3": {
+          "type": "long"
+        },
+        "extendInt4": {
+          "type": "long"
+        },
+        "extendInt5": {
+          "type": "long"
+        },
+        "extendPrice1": {
+          "type": "double"
+        },
+        "extendPrice2": {
+          "type": "double"
+        },
+        "extendPrice3": {
+          "type": "double"
+        },
+        "extendPrice4": {
+          "type": "double"
+        },
+        "extendPrice5": {
+          "type": "double"
+        },
+        "extendString1": {
+          "type": "text"
+        },
+        "extendString2": {
+          "type": "text"
+        },
+        "extendString3": {
+          "type": "text"
+        },
+        "extendString4": {
+          "type": "text",
+          "index": false
+        },
+        "extendString5": {
+          "type": "text",
+          "index": false
+        },
+        "extendTime1": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime2": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime3": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime4": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        },
+        "extendTime5": {
+          "type": "date",
+          "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+        }
+      }
+    }
+  }
+}
