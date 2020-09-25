@@ -2,7 +2,7 @@
   "mappings": {
     "doc": {
       "properties": {
-        "estateId": {
+        "pid": {
           "type": "long"
         },
         "additionalFeaturesType": {
@@ -179,13 +179,13 @@
         "street": {
           "type": "text"
         },
-        "tID": {
+        "tid": {
           "type": "long"
         },
         "tel": {
           "type": "text"
         },
-        "uID": {
+        "uid": {
           "type": "long"
         },
         "unit": {
@@ -207,13 +207,13 @@
           "type": "long"
         },
         "isType": {
-          "type": "long"
+          "type": "integer"
         },
         "picAmount": {
-          "type": "long"
+          "type": "integer"
         },
         "ui_Other": {
-          "type": "long"
+          "type": "integer"
         },
         "ui_isStatus": {
           "type": "long"
@@ -221,7 +221,7 @@
         "photoList": {
           "type": "nested",
           "properties": {
-            "rowId": {
+            "photoId": {
               "type": "integer"
             },
             "title": {

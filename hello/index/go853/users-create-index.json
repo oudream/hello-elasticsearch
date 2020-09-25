@@ -2,7 +2,7 @@
   "mappings": {
     "doc": {
       "properties": {
-        "userId": {
+        "uid": {
           "type": "long"
         },
         "account": {
